@@ -2,6 +2,7 @@
 node_modules
 dev
 build
+.log
 
 ### OSX ###
 .DS_STORE

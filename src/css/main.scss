@@ -1,0 +1,34 @@
+@import 'constants';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $text__c;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: $header__bgc;
+  padding: $common__p;
+  margin: $common__m;
+}
+
+.flexbox-demo {
+  display: flex;
+  margin: $common__m;
+}
+
+.flexbox-demo__child {
+  padding: $common__p;
+  background-color: $flexbox-demo__child__bgc;
+  cursor: pointer;
+  &:hover {
+    background-color: $flexbox-demo__child__bgc_hover;
+  }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}

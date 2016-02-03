@@ -1,0 +1,19 @@
+{
+  "name": "wrk-advanced-css",
+  "version": "0.0.1",
+  "description": "Advanced CSS template for /wrk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alextewpin/wrk-advanced-css"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-htmlmin": "^1.3.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
